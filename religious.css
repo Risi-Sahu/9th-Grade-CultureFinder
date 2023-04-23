@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    width: 70vw;
+    height: 90vh;
+    display: inline-block;
+
+    border-color: blueviolet;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+  */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A;
+  }
+
+.navbarButton{
+  background: #3446A8;
+  border-radius: 10px;
+  border-color: #000000;
+
+  position: absolute;
+  width: 32%;
+  height: 90%;
+  top: 10%;
+}
+
+.navbar{
+  position: absolute;
+  width: 71%;
+  height: 7.5%;
+  left: 28%;
+  top: 1.1%;
+}
+
+#languages{
+  left: 34%;
+}
+
+#religion{
+  left: 68%;
+}
+
+#places{
+  position: absolute;
+  width: 40vh;
+  height: 7vh;
+  left: 2vw;
+  top: 2vh;
+  z-index: 2;
+  
+  background: #1A1A1A;
+  border-radius: 10px;
+
+  color: aliceblue;
+  justify-content: center;
+  text-align: center;
+}
+
+#sidebox{
+  width: 27vw;
+  height: 100vh;
+  margin: 0 0 0 0;
+  display: inline-block;
+
+  background: #D78B46;
+  border: 2px solid #000000;
+}
+
+.mapCont {
+  display: flex;
+  flex-wrap: nowrap;
+}

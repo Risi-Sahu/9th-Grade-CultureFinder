@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body class="body">
+    <div class="banner">
+        <div id="inner_text">
+        <h1 id="homepage_title">Introducing The CultureFinder</h1>
+        <p id="body_text1"> This webapp is meant to show Indians living abroad (specifically in Boise) where they can find and reconnect with Indian culture locally. This site allows for users to view where they can feel included in their own culture outside India.</p>
+        </div>
+    </div>
+    <div id="buttonsDiv">
+        <button class="button" id="left"> 
+            <p class="title"> Religion and Cuisine</p>
+            <p class="paragraph">Religion is a key aspect of culture, especially Indian culture, permeating every aspect of life in India. Another fundamental aspect immigrants are know to miss the most is India's rich and diverse food. Both of these aspects exist on every continent outside of India, and therefore this page shows immigrants a map of where they can find temples, mosques and Indian resturants. </p>
+        </button>
+        <button class="button" id="right">
+            <p class="title">Language Learning</p>
+            <p class="paragraph"> Boasting hundreds of languages and dialects across its geography. This page helps immigrants reconnect with their language by showing them online resources for connecting via learning their language. Click on this button to see the resources available.</p>
+        </button>
+    </div>
+
+    <script>
+        document.getElementById("left").onclick = function () {
+            location.href = "religiousSites.html";
+        };
+    </script>
+    
+    <script>
+        document.getElementById("right").onclick = function () {
+            location.href = "langLearning.html";
+        };
+    </script>
+
+</body>
+</html>

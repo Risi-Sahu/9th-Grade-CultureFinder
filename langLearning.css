@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+.navbar{
+    position: absolute;
+    width: 71%;
+    height: 7.5%;
+    left: 28%;
+    top: 1.1%;
+}
+
+body{
+    background-color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarDiv{
+    margin: 0;
+    height: 100vh;
+    background-color:  #44B456;
+    width: 48vh;
+}
+
+#sidebarText{
+    height: 50%;
+
+    left: 1%;
+    position: relative;
+
+    
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+}
+
+.textbox{
+    background: #D78B46;
+    border: 2px solid #000000;
+
+    width: 70.78072917%;
+    height: 20%;
+
+    left: 28%;
+    position: absolute;
+}
+
+#topText{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#midTopText{
+    position: absolute;
+    top: 32%;
+}
+
+#midBottomText{
+    position: absolute;
+    top: 54%;
+}
+
+#bottomtext{
+    position: absolute;
+    top: 76%;
+}
+
+.navbarButton{
+    background: #3446A8;
+    border-radius: 10px;
+    border-color: #000000;
+
+    position: absolute;
+    width: 32%;
+    height: 90%;
+    top: 10%;
+
+    color: white;
+    font-family: 'Hind Vadadora', sans-serif;
+    font-size: 100%;
+    text-align-last: center;
+
+    z-index: 0;
+}
+
+#languages{
+    left: 34%;
+}
+
+#religion{
+    left: 68%;
+}
+
+#langNums{
+    object-fit: contain;
+    width: 100%;
+    top: 0;
+    position: relative;
+    align-items: top;
+}
+
+#langOff{
+    object-fit: contain;
+    width: 100%;
+    position: relative;
+    top: 6%;
+}
+
+#iconTandem{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 84%;
+
+    height: 90%;
+}
+
+#duolingo{
+    margin-top: 0.7%;
+    margin-bottom: auto;
+    margin-left: 84%;
+    margin-right: auto;
+
+    height: 90%;
+}
+
+#helloTalk{
+    margin-top: 4%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 84%;
+
+    height: 50%;
+}
+
+#anki{
+    margin-top: 0.7%;
+    margin-bottom: auto;
+    margin-left: 86%;
+    margin-right: auto;
+
+    height: 90%;
+}
+
+
+#sidetext{
+    position: absolute;
+    width: 380px;
+
+    text-align: center;
+
+    left: 6px;
+    top: 90px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 10vh;
+    font-size: 4vh;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+}
+
+#tandemWrite{
+    position: absolute;
+
+    left: 25vh;
+    top: 0.5vh;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 7vh;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+
+    z-index: 1;
+}
+
+#duoWrite{
+    position: absolute;
+
+    left: 2vh;
+    top: 1vh;
+
+    width: 80%;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 7vh;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+
+    z-index: 1;
+}
+
+#helloWrite{
+    position: absolute;
+
+    left: 42vh;
+    top: 0.5vh;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 7vh;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+
+    z-index: 1;
+}
+
+#ankiWrite{
+    position: absolute;
+
+    left: 2vh;
+    top: 1vh;
+
+    width: 85%;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 7vh;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+
+    z-index: 1;
+}
